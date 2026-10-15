@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="To-do list app preview">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#g)"/>
+  <rect x="170" y="50" width="300" height="300" rx="18" fill="#0b0a1f" opacity="0.88"/>
+  <rect x="200" y="80" width="140" height="18" rx="6" fill="#ffffff"/>
+  <rect x="200" y="114" width="190" height="30" rx="8" fill="#ffffff" opacity="0.12"/>
+  <rect x="398" y="114" width="42" height="30" rx="8" fill="#22d3ee"/>
+  <!-- tasks -->
+  <g>
+    <rect x="200" y="164" width="240" height="40" rx="10" fill="#ffffff" opacity="0.08"/>
+    <circle cx="222" cy="184" r="9" fill="#34d399"/>
+    <rect x="242" y="179" width="130" height="10" rx="5" fill="#a9a5c7" opacity="0.6"/>
+  </g>
+  <g>
+    <rect x="200" y="214" width="240" height="40" rx="10" fill="#ffffff" opacity="0.08"/>
+    <circle cx="222" cy="234" r="9" fill="none" stroke="#a9a5c7" stroke-width="2"/>
+    <rect x="242" y="229" width="150" height="10" rx="5" fill="#ffffff"/>
+  </g>
+  <g>
+    <rect x="200" y="264" width="240" height="40" rx="10" fill="#ffffff" opacity="0.08"/>
+    <circle cx="222" cy="284" r="9" fill="none" stroke="#a9a5c7" stroke-width="2"/>
+    <rect x="242" y="279" width="110" height="10" rx="5" fill="#ffffff"/>
+  </g>
+</svg>

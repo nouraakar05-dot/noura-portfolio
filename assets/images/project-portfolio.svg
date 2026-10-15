@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Portfolio project preview">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#g)"/>
+  <!-- browser window -->
+  <rect x="80" y="60" width="480" height="290" rx="14" fill="#0b0a1f" opacity="0.85"/>
+  <circle cx="104" cy="82" r="6" fill="#f87171"/>
+  <circle cx="124" cy="82" r="6" fill="#fbbf24"/>
+  <circle cx="144" cy="82" r="6" fill="#34d399"/>
+  <rect x="110" y="130" width="200" height="22" rx="6" fill="#ffffff"/>
+  <rect x="110" y="164" width="150" height="12" rx="6" fill="#a9a5c7"/>
+  <rect x="110" y="186" width="180" height="12" rx="6" fill="#a9a5c7" opacity="0.6"/>
+  <rect x="110" y="220" width="96" height="30" rx="15" fill="#ec4899"/>
+  <circle cx="440" cy="190" r="70" fill="#8b5cf6"/>
+  <circle cx="440" cy="190" r="56" fill="#22d3ee" opacity="0.7"/>
+  <rect x="110" y="280" width="130" height="44" rx="8" fill="#ffffff" opacity="0.12"/>
+  <rect x="255" y="280" width="130" height="44" rx="8" fill="#ffffff" opacity="0.12"/>
+  <rect x="400" y="280" width="130" height="44" rx="8" fill="#ffffff" opacity="0.12"/>
+</svg>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Noura Salah Akar — student and aspiring front-end developer.">
+  <title>Noura Salah Akar | Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Poppins (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80" tabindex="0">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home">Noura<span class="text-gradient">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header id="home" class="hero">
+    <!-- Decorative blurred gradient shapes -->
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+    <div class="blob blob-3" aria-hidden="true"></div>
+
+    <div class="container position-relative">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+          <span class="badge-pill mb-3"><i class="bi bi-stars"></i> Open to internships</span>
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Noura Salah Akar</span>
+          </h1>
+          <p class="hero-subtitle">Student &amp; Aspiring Front-End Developer</p>
+          <p class="hero-text">
+            I turn ideas into clean, responsive websites using HTML, CSS and Bootstrap —
+            and I'm learning something new every day.
+          </p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#projects" class="btn btn-gradient btn-lg">
+              <i class="bi bi-grid-1x2"></i> View Projects
+            </a>
+            <!-- TODO: put your CV at assets/cv.pdf, then change href to "assets/cv.pdf" and add the download attribute -->
+            <a href="#resume" class="btn btn-glass btn-lg">
+              <i class="bi bi-file-earmark-person"></i> My Resume
+            </a>
+          </div>
+          <div class="social-links mt-4 justify-content-center justify-content-lg-start">
+            <!-- TODO: replace with your real profile links -->
+            <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="mailto:noursalahakar@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 order-1 order-lg-2 text-center">
+          <div class="avatar-wrap">
+            <!-- TODO: replace with your own photo (square image works best) -->
+            <img src="assets/images/profile.svg" alt="Portrait of Noura Salah Akar" class="avatar">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll to About section"><i class="bi bi-chevron-double-down"></i></a>
+  </header>
+
+  <main>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">01 · About</span>
+          <h2 class="section-title">A little about <span class="text-gradient">me</span></h2>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="glass-card h-100">
+              <!-- TODO: personalise this bio -->
+              <p class="lead-text">
+                I'm a student with a growing passion for web development. What started as curiosity about
+                how websites work has become a goal: building interfaces that are simple, beautiful and
+                easy to use on any device.
+              </p>
+              <p>
+                I enjoy translating designs into clean, well-structured code and paying attention to the
+                small details — spacing, colour and typography — that make a page feel professional.
+                Right now I'm strengthening my foundations in HTML, CSS and Bootstrap, and taking my
+                first steps with JavaScript.
+              </p>
+              <p class="mb-0">
+                I'm looking for opportunities to learn from real projects, collaborate with a team and
+                keep growing as a developer.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="row g-3 h-100">
+              <div class="col-6">
+                <div class="glass-card stat-card h-100">
+                  <i class="bi bi-mortarboard-fill"></i>
+                  <h3>Student</h3>
+                  <p>Information Systems</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="glass-card stat-card h-100">
+                  <i class="bi bi-code-slash"></i>
+                  <h3>3+</h3>
+                  <p>Projects built</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="glass-card stat-card h-100">
+                  <i class="bi bi-phone"></i>
+                  <h3>100%</h3>
+                  <p>Responsive designs</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="glass-card stat-card h-100">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <h3>Remote</h3>
+                  <p>&amp; on-site ready</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">02 · Skills</span>
+          <h2 class="section-title">What I <span class="text-gradient">work with</span></h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Front-end -->
+          <div class="col-md-6 col-lg-4">
+            <div class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-window-stack"></i></div>
+              <h3>Front-End</h3>
+              <div class="skill">
+                <div class="skill-label"><span>HTML5</span><span>90%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>CSS3</span><span>85%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>Bootstrap 5</span><span>80%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>JavaScript</span><span>45%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 45%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="col-md-6 col-lg-4">
+            <div class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-tools"></i></div>
+              <h3>Tools</h3>
+              <div class="tag-list">
+                <span class="tag"><i class="bi bi-git"></i> Git</span>
+                <span class="tag"><i class="bi bi-github"></i> GitHub</span>
+                <span class="tag"><i class="bi bi-code-square"></i> VS Code</span>
+                <span class="tag"><i class="bi bi-vector-pen"></i> Figma</span>
+                <span class="tag"><i class="bi bi-browser-chrome"></i> Chrome DevTools</span>
+                <span class="tag"><i class="bi bi-file-earmark-code"></i> Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft skills -->
+          <div class="col-md-12 col-lg-4">
+            <div class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-people"></i></div>
+              <h3>Soft Skills</h3>
+              <ul class="check-list">
+                <li><i class="bi bi-check2-circle"></i> Teamwork &amp; collaboration</li>
+                <li><i class="bi bi-check2-circle"></i> Problem solving</li>
+                <li><i class="bi bi-check2-circle"></i> Attention to detail</li>
+                <li><i class="bi bi-check2-circle"></i> Clear communication</li>
+                <li><i class="bi bi-check2-circle"></i> Time management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <!-- TODO: replace these sample projects with your own (image, title, description, links) -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">03 · Projects</span>
+          <h2 class="section-title">Things I've <span class="text-gradient">built</span></h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="glass-card project-card h-100">
+              <div class="project-img">
+                <img src="assets/images/project-portfolio.svg" alt="Screenshot of the personal portfolio website">
+              </div>
+              <div class="project-body">
+                <h3>Personal Portfolio</h3>
+                <p>A responsive single-page portfolio with a glass-style design, smooth scrolling and a mobile-friendly navbar.</p>
+                <div class="tech-list">
+                  <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/nouraakar05-dot/noura-portfolio" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <a href="#home"><i class="bi bi-box-arrow-up-right"></i> Live</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="glass-card project-card h-100">
+              <div class="project-img">
+                <img src="assets/images/project-restaurant.svg" alt="Screenshot of a restaurant landing page">
+              </div>
+              <div class="project-body">
+                <h3>Restaurant Landing Page</h3>
+                <p>A landing page for a local café featuring a hero banner, menu cards, opening hours and a location section.</p>
+                <div class="tech-list">
+                  <span>HTML</span><span>CSS</span><span>Flexbox</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <article class="glass-card project-card h-100">
+              <div class="project-img">
+                <img src="assets/images/project-todo.svg" alt="Screenshot of a to-do list app">
+              </div>
+              <div class="project-body">
+                <h3>To-Do List App</h3>
+                <p>A simple task manager where users can add, complete and delete tasks — my first project using JavaScript.</p>
+                <div class="tech-list">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESUME ========== -->
+    <!-- TODO: replace with your real education, experience and certificates -->
+    <section id="resume" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">04 · Resume</span>
+          <h2 class="section-title">My <span class="text-gradient">journey</span></h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Education -->
+          <div class="col-lg-6">
+            <h3 class="timeline-heading"><i class="bi bi-mortarboard"></i> Education</h3>
+            <div class="timeline">
+              <div class="timeline-item glass-card">
+                <span class="timeline-date">2023 – Present</span>
+                <h4>Bachelor's in Management Information Systems</h4>
+                <p class="timeline-place">Delta Higher Institute for Management Information Systems and Accounting Sciences</p>
+                <p>Studying information systems, programming fundamentals, databases and web development.</p>
+              </div>
+              <div class="timeline-item glass-card">
+                <span class="timeline-date">2020 – 2023</span>
+                <h4>High School Diploma</h4>
+                <p class="timeline-place">Faqous, Sharqia</p>
+                <p>Scientific track, with a focus on mathematics and computer studies.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience & Certificates -->
+          <div class="col-lg-6">
+            <h3 class="timeline-heading"><i class="bi bi-briefcase"></i> Experience &amp; Certificates</h3>
+            <div class="timeline">
+              <div class="timeline-item glass-card">
+                <span class="timeline-date">2026</span>
+                <h4>Web Development Course Projects</h4>
+                <p class="timeline-place">University coursework</p>
+                <p>Built responsive web pages in small teams, using Git and GitHub for version control.</p>
+              </div>
+              <div class="timeline-item glass-card">
+                <span class="timeline-date">2026</span>
+                <h4>Responsive Web Design Certificate</h4>
+                <p class="timeline-place">Online course</p>
+                <p>Covered semantic HTML, CSS layouts with Flexbox and Grid, and accessibility basics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">05 · Contact</span>
+          <h2 class="section-title">Let's <span class="text-gradient">connect</span></h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="glass-card h-100">
+              <p class="lead-text">Have a question, an opportunity or just want to say hi? My inbox is always open.</p>
+              <!-- TODO: replace with your real contact details -->
+              <ul class="contact-list">
+                <li><i class="bi bi-envelope"></i> <a href="mailto:noursalahakar@gmail.com">noursalahakar@gmail.com</a></li>
+                <li><i class="bi bi-telephone"></i> <a href="tel:+201019976717">01019976717</a></li>
+                <li><i class="bi bi-github"></i> <a href="https://github.com/nouraakar05-dot" target="_blank" rel="noopener">github.com/nouraakar05-dot</a></li>
+                <li><i class="bi bi-geo-alt"></i> Kafr Saqr, Sharqia, Egypt</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <!-- Front-end only form: opens the visitor's email app with the message -->
+            <form class="glass-card contact-form" action="mailto:noursalahakar@gmail.com" method="post" enctype="text/plain">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                </div>
+                <div class="col-sm-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gradient w-100">
+                    <i class="bi bi-send"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">&copy; 2026 Noura Salah Akar. Built with HTML, CSS &amp; Bootstrap.</p>
+      <a href="#home" class="back-top"><i class="bi bi-arrow-up"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (needed for the mobile navbar menu and scrollspy) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
